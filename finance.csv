@@ -1,0 +1,6 @@
+Name,Industry,City,Years,monthly_revenue,average_transaction,top_product,number_of_customer,operational_cost
+Infosys,IT Services,Chennai,50,90000000,300000,Digital Transformation,300,65000000
+Tata Motors,Automobile Manufacturing,Pune,80,120000000,600000,Electric SUV,200,90000000
+Cafe Coffee Day,Food & Beverage,Bangalore,25,4500000,250,Cappuccino,18000,3000000
+MedPlus,Pharmacy Retail,Hyderabad,20,15000000,500,Generic Medicines,30000,8000000
+Zomato,Food Delivery,Delhi,15,60000000,400,Meal Orders,150000,35000000

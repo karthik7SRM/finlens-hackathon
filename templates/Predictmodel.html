@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='predictmodel.css') }}">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Prediction Result</h2>
+        {% if prediction %}
+            <p>{{ prediction }}</p>
+        {% else %}
+            <p>No prediction available.</p>
+        {% endif %}
+        <a href="{{ url_for('predict') }}">Upload Another CSV</a>
+    </div>
+</body>
+</html>
+
